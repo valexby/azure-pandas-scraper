@@ -23,4 +23,4 @@ RUN apk add --update --no-cache --virtual .run-deps \
     lxml==4.3.0 \
     SQLAlchemy==1.2.15 \
     && rm -rf /var/cache/apk/* \
-#    && apk del .build-deps
+    && apk del .build-deps
